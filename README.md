@@ -1,0 +1,1 @@
+Script for parsing info from site(https://dom.ria.com/uk/)

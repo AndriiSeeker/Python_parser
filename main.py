@@ -57,8 +57,7 @@ def main():
         if response.status_code == 200:
             pass
         else:
-            print('The link is misspelled')
-            raise SystemExit(0)
+            continue
 
         html_soup = BS(response.text, "html.parser")
         lxml_soup = BS(response.content, features='lxml')
